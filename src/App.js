@@ -15,13 +15,7 @@ const router = createBrowserRouter([
 ]);
 
 const App = () => {
-  return (
-    <RouterProvider router={router}>
-      <Route exact path="/private-group">
-        <PrivateGroup />
-      </Route>
-    </RouterProvider>
-  );
+  return <RouterProvider router={router}></RouterProvider>;
 };
 
 export default App;

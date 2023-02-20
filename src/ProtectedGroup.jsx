@@ -6,7 +6,7 @@ const ProtectedGroup = ({ isMember, children }) => {
   const handleRedirectUser = () => {
     setTimeout(() => {
       navigate("/");
-    }, 3000);
+    }, 8000);
   };
   if (!isMember) {
     handleRedirectUser();
